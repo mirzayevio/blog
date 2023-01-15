@@ -1,0 +1,73 @@
+baseURL = 'https://mirzayevio.github.io'
+languageCode = 'en-us'
+title = 'Mizayev Farid'
+theme = 'hugo-theme-cactus'
+
+[params]
+colortheme = "dark" # dark, light, white, or classic
+description = "Personal space and blog"
+
+[[params.social]]
+name = "github"
+link = "https://github.com/mirzayevio"
+
+[[params.social]]
+name = "email"
+link = "mirzayevfarid@gmail.com"
+
+[[params.social]]
+name = "linkedin"
+link = "https://www.linkedin.com/in/mirzayevio/"
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[markup]
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ''
+hl_inline = false
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+noHl = false
+style = 'base16-snazzy'
+tabWidth = 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+[submodule "blog/public"]
+	path = blog/public
+	url = https://github.com/mirzayevio/mirzayevio.github.io.git
+	branch = main
+[submodule "blog/themes/cactus"]
+	path = blog/themes/cactus
+	url = https://github.com/monkeyWzr/hugo-theme-cactus.git
