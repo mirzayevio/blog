@@ -61,7 +61,7 @@ lineNos = false
 lineNumbersInTable = true
 noClasses = true
 noHl = false
-style = 'base16-snazzy'
+style = 'nord'
 tabWidth = 4
 
 
