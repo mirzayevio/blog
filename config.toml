@@ -28,6 +28,10 @@ link = "mirzayevfarid@gmail.com"
 name = "github"
 link = "https://github.com/mirzayevio"
 
+[[params.social]]
+name = "rss"
+link = "https://mirzayevio.github.io/index.xml"
+
 # Main menu which appears below site header.
 [[menu.main]]
 name = "Posts"
