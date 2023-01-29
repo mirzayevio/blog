@@ -1,6 +1,6 @@
 baseURL = 'https://mirzayevio.github.io'
 languageCode = 'en-us'
-title = 'Mizayev Farid'
+title = 'Farid`s personal space & blog'
 theme = 'cactus'
 
 [taxonomies]
@@ -9,34 +9,28 @@ tag = 'tags'
 
 [params]
 colortheme = "dark" # dark, light, white, or classic
-description = "Personal space and blog"
+mainSectionTitle = "Posts"
 dateFormat = "Jan 2, 2006"
 css = ["css/custom.css"]
-tags = ["python", "SWE"]
   
 
 [[params.social]]
-name = "github"
-link = "https://github.com/mirzayevio"
+name = "linkedin"
+link = "https://www.linkedin.com/in/mirzayevio/"
 
 [[params.social]]
 name = "email"
 link = "mirzayevfarid@gmail.com"
 
 [[params.social]]
-name = "linkedin"
-link = "https://www.linkedin.com/in/mirzayevio/"
+name = "github"
+link = "https://github.com/mirzayevio"
 
 # Main menu which appears below site header.
 [[menu.main]]
 name = "Posts"
 url = "/posts"
 weight = 3
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 2
 
 [[menu.main]]
 name = "Home"
