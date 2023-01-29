@@ -2,6 +2,7 @@ baseURL = 'https://mirzayevio.github.io'
 languageCode = 'en-us'
 title = 'Farid`s personal space & blog'
 theme = 'cactus'
+copyright = "Farid Mirzayev"
 
 [taxonomies]
 category = 'categories'
@@ -11,6 +12,7 @@ tag = 'tags'
 colortheme = "dark" # dark, light, white, or classic
 mainSectionTitle = "Posts"
 dateFormat = "Jan 2, 2006"
+rss = true
 css = ["css/custom.css"]
   
 
