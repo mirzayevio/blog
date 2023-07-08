@@ -4,10 +4,7 @@
     {{ .Site.Params.description | $.Page.RenderString }}
   {{ end }}
   {{ if isset .Site.Params "social" }}
-  <section id="about">
-    {{ partial "about.html" . }}
-  </section>
-      <p>You can find me on
+      <p>Find me on
       {{ $length := (len .Site.Params.social) }}
       {{ range $index, $elem := .Site.Params.social}}
       {{ if eq $elem.name "email" }}

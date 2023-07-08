@@ -1,6 +1,6 @@
 baseURL = 'https://mirzayevio.github.io'
 languageCode = 'en-us'
-title = 'Farid`s personal space & blog'
+title = 'Farid M.'
 theme = 'cactus'
 copyright = "Farid Mirzayev"
 
@@ -9,7 +9,7 @@ category = 'categories'
 tag = 'tags'
 
 [params]
-colortheme = "light" # dark, light, white, or classic
+colortheme = "white" # dark, light, white, or classic
 mainSectionTitle = "Posts"
 dateFormat = "Jan 2, 2006"
 rss = true
@@ -36,7 +36,7 @@ link = "https://mirzayevio.github.io/index.xml"
 [[menu.main]]
 name = "Posts"
 url = "/posts"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "Home"
@@ -46,7 +46,17 @@ weight = 1
 [[menu.main]]
 name = "Bookmarks"
 url = "/bookmarks"
-weight = 4
+weight = 5
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+name = "Resume"
+url = "/resume"
+weight = 3
 
 [markup]
 [markup.highlight]
